@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "operation_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "object_id": {
+      "type": "string"
+    },
+    "object_type": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "ended_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "operation_type",
+    "status",
+    "object_id",
+    "object_type",
+    "created_at",
+    "ended_at"
+  ]
+}
