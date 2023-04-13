@@ -1,0 +1,9 @@
+CloudPlatformMethods.egg-info/PKG-INFO
+CloudPlatformMethods.egg-info/SOURCES.txt
+CloudPlatformMethods.egg-info/dependency_links.txt
+CloudPlatformMethods.egg-info/top_level.txt
+api_framework/methods/customer_manager.py
+api_framework/methods/order_manager.py
+api_framework/methods/product_catalog.py
+api_framework/methods/product_inventory.py
+api_framework/methods/service_inventory.py

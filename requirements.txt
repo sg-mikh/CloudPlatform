@@ -1,0 +1,15 @@
+pytest # Тестовый фреймворк
+pytest-xdist # Библиотека для многопоточного запуска тестов
+requests # Библиотека для отправки запросов
+beautifulsoup4 # Библиотека для сбора информации с веб страниц
+jsonschema # Библиотека для валидации json ответа сервера
+allure-pytest # отчеты в allure
+wheel
+setuptools
+flake8 # Библиотека для проверки code-style
+flake8-import-order # Плагин для библиотеки выше
+cryptography # генерация ssh ключей
+Faker # для генерации фэйковых данных
+paramiko # Библиотека для подключения к SSH
+selenium
+retrying
