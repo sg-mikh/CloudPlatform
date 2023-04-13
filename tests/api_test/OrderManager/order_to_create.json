@@ -1,0 +1,38 @@
+{
+  "project_id": "string",
+  "items": [
+    {
+      "position": 0,
+      "quantity": 0,
+      "price_component_id": "string",
+      "product_instance_id": "string",
+      "characteristics": [
+        {
+          "characteristic_id": "string",
+          "characteristic_value": "string"
+        }
+      ],
+      "child_items": [
+        {
+          "position": 0,
+          "quantity": 0,
+          "price_component_id": "string",
+          "characteristics": [
+            {
+              "characteristic_id": "string",
+              "characteristic_value": "string"
+            }
+          ],
+          "child_items": [
+            null
+          ]
+        }
+      ]
+    }
+  ],
+  "creator_id": "string",
+  "type": "INVALID_ORDER_TYPE",
+  "trial_allowed": true,
+  "trial_duration_days": 0,
+  "trial_amount": "string"
+}

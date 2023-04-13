@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "projects": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "customer_id": {
+              "type": "string"
+            },
+            "folder_id": {
+              "type": "string"
+            },
+            "project_id": {
+              "type": "string"
+            },
+            "display_name": {
+              "type": "string"
+            },
+            "creator_id": {
+              "type": "string"
+            },
+            "updater_id": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "customer_id",
+            "folder_id",
+            "project_id",
+            "display_name",
+            "creator_id",
+            "updater_id",
+            "created_at",
+            "updated_at"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "projects"
+  ]
+}

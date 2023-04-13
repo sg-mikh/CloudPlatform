@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "middle_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "permissions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "role_name": {
+              "type": "string"
+            },
+            "role_int_name": {
+              "type": "string"
+            },
+            "resource_id": {
+              "type": "string"
+            },
+            "resource_type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "role_name",
+            "role_int_name",
+            "resource_id",
+            "resource_type"
+          ]
+        }
+      ]
+    },
+    "customer_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "user_id",
+    "user_name",
+    "first_name",
+    "last_name",
+    "middle_name",
+    "email",
+    "phone",
+    "permissions",
+    "customer_id"
+  ]
+}
